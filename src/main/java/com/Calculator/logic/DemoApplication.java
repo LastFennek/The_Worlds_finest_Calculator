@@ -11,7 +11,8 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 
-		System.out.println("The World's Finest Calculator!\n\n");
+		System.out.println("\n\n\n");
+		System.out.println("The World's Finest Calculator! Version1: OHNE\n");
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Bitte geben Sie Zahl eins ein:");
 		double x = scan.nextInt();
