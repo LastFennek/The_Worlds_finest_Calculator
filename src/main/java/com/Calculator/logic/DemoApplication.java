@@ -34,10 +34,11 @@ public class DemoApplication {
 			}
 		}while(!randomStufftoIgnore);
 
+		System.out.println("\n");
 		randomStufftoIgnore = false;
 		double sum1 = 0.0;
 		do{
-			System.out.print("Bitte geben Sie Zahl eins ein: ");
+			System.out.print("Bitte geben Sie Zahl zwei ein: ");
 			if(scan.hasNextDouble()){
 				sum1 = scan.nextDouble()+z1;
 				randomStufftoIgnore = true;
